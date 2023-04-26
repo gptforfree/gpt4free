@@ -1,30 +1,10 @@
-# GPT4free - use ChatGPT, for free!!
+# GPT4free (uncensored) - use ChatGPT, for free!!
 
 <img width="1383" alt="image" src="https://user-images.githubusercontent.com/98614666/233799515-1a7cb6a3-b17f-42c4-956d-8d2a0664466f.png">
 
 Have you ever come across some amazing projects that you couldn't use **just because you didn't have an OpenAI API key?** 
 
 **We've got you covered!** This repository offers **reverse-engineered** third-party APIs for `GPT-4/3.5`, sourced from various websites. You can simply **download** this repository, and use the available modules, which are designed to be used **just like OpenAI's official package**. **Unleash ChatGPT's potential for your projects, now!** You are welcome ; ).
-
-By the way, thank you so much for [![Stars](https://img.shields.io/github/stars/xtekky/gpt4free?style=social)](https://github.com/xtekky/gpt4free/stargazers) and all the support!!
-
-## Announcement
-Dear  Gpt4free Community,
-
-I want to thank you for your interest in and support of this project, which I only intended to be for entertainment and educational purposes; I had no idea it would end up being so popular.
-
-I'm aware of the concerns about the project's legality and its impact on smaller sites hosting APIs. I take these concerns seriously and plan to address them.
-
-Here's what I'm doing to fix these issues:
-
-1. Removing APIs from smaller sites: To reduce the impact on smaller sites, I have removed their APIs from the repository. Please shoot me a dm if you are an owner of a site and want it removed.
-
-2. Commitment to ethical use: I want to emphasize my commitment to promoting ethical use of language models. I don't support any illegal or unethical behavior, and I expect users to follow the same principles.
-
-Thank you for your support and understanding. I appreciate your continued interest in gpt4free and am committed to addressing your concerns.
-
-Sincerely,
-xtekky
 
 ## Legal Notice <a name="legal-notice"></a>
 
@@ -116,21 +96,14 @@ Run
 ```
 docker run -p 8501:8501 gpt4free:latest
 ```
-
-## ChatGPT clone
-> currently implementing new features and trying to scale it, please be patient it may be unstable     
-> https://chat.chatbot.sex/chat
-> This site was developed by me and includes **gpt-4/3.5**, **internet access** and **gpt-jailbreak's** like DAN   
-> run locally here: https://github.com/xtekky/chatgpt-clone
-
 ## Copyright: 
 This program is licensed under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.txt)     
 
-Most code, with the exception of `quora/api.py` (by [ading2210](https://github.com/ading2210)), has been written by me, [xtekky](https://github.com/xtekky).
+Most code, with the exception of `quora/api.py` (by [ading2210](https://github.com/ading2210)), has been written by me, [gptforfree](https://github.com/gptforfree).
 
 ### Copyright Notice: <a name="copyright"></a>
 ```
-xtekky/openai-gpt4: multiple reverse engineered language-model api's to decentralise the ai industry.  
+gptforfree/gpt4free: multiple reverse engineered language-model api's to decentralise the ai industry.  
 Copyright (C) 2023 xtekky
 
 This program is free software: you can redistribute it and/or modify
