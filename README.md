@@ -1,121 +1,84 @@
-# GPT4free (uncensored) - use ChatGPT, for free!!
+# GPT4free (Uncensored)
 
-<img width="1383" alt="image" src="https://user-images.githubusercontent.com/98614666/233799515-1a7cb6a3-b17f-42c4-956d-8d2a0664466f.png">
+![GPT4free](https://user-images.githubusercontent.com/98614666/233799515-1a7cb6a3-b17f-42c4-956d-8d2a0664466f.png)
 
-Have you ever come across some amazing projects that you couldn't use **just because you didn't have an OpenAI API key?** 
+Welcome to GPT4free (Uncensored)! This repository provides reverse-engineered third-party APIs for GPT-4/3.5 that can be used in place of OpenAI's official package. By downloading this repository, you can access these modules, which have been sourced from various websites. Unleash the full potential of ChatGPT for your projects without needing an OpenAI API key.
 
-**We've got you covered!** This repository offers **reverse-engineered** third-party APIs for `GPT-4/3.5`, sourced from various websites. You can simply **download** this repository, and use the available modules, which are designed to be used **just like OpenAI's official package**. **Unleash ChatGPT's potential for your projects, now!** You are welcome ; ).
+## Legal Notice
 
-## Legal Notice <a name="legal-notice"></a>
+Please note that this project is intended for educational purposes only and uses third-party APIs and AI models that are not associated with or endorsed by the API providers or the original developers of the models.
 
-This repository uses third-party APIs and AI models and is *not* associated with or endorsed by the API providers or the original developers of the models. This project is intended **for educational purposes only**.
+1. Disclaimer: The APIs, services, and trademarks mentioned in this repository belong to their respective owners. This project is not claiming any right over them.
 
-Please note the following:
+2. Responsibility: The author of this repository is not responsible for any consequences arising from the use or misuse of this repository or the content provided by the third-party APIs, and any damage or losses caused by users' actions.
 
-1. **Disclaimer**: The APIs, services, and trademarks mentioned in this repository belong to their respective owners. This project is *not* claiming any right over them.
-
-2. **Responsibility**: The author of this repository is *not* responsible for any consequences arising from the use or misuse of this repository or the content provided by the third-party APIs and any damage or losses caused by users' actions.
-
-3. **Educational Purposes Only**: This repository and its content are provided strictly for educational purposes. By using the information and code provided, users acknowledge that they are using the APIs and models at their own risk and agree to comply with any applicable laws and regulations.
-
+3. Educational Purposes Only: This repository and its content are provided strictly for educational purposes. By using the information and code provided, users acknowledge that they are using the APIs and models at their own risk and agree to comply with any applicable laws and regulations.
 
 ## Table of Contents
+
 | Section | Description | Link | Status |
 | ------- | ----------- | ---- | ------ |
-| **To do list** | List of tasks to be done | [![Link to Section](https://img.shields.io/badge/Link-Go%20to%20Section-blue)](#todo) | - |
+| **To Do List** | List of tasks to be done | [![Link to Section](https://img.shields.io/badge/Link-Go%20to%20Section-blue)](#to-do-list) | - |
 | **Current Sites** | Current websites or platforms that can be used as APIs | [![Link to Section](https://img.shields.io/badge/Link-Go%20to%20Section-blue)](#current-sites) | - |
-| **Best Sites for gpt4** | Recommended websites or platforms for gpt4 | [![Link to Section](https://img.shields.io/badge/Link-Go%20to%20Section-blue)](#best-sites) | - |
-| **Streamlit GPT4Free GUI** | Web-based graphical user interface for interacting with gpt4free | [![Link to Section](https://img.shields.io/badge/Link-Go%20to%20Section-blue)](#streamlit-gpt4free-gui) | - |
-| **Docker** | Instructions on how to run gpt4free in a Docker container | [![Link to Section](https://img.shields.io/badge/Link-Go%20to%20Section-blue)](#docker-instructions) | - |
-| **ChatGPT clone** | A ChatGPT clone with new features and scalability | [![Link to Website](https://img.shields.io/badge/Link-Visit%20Site-blue)](https://chat.chatbot.sex/chat) | - |
-| **How to install** | Instructions on how to install gpt4free | [![Link to Section](https://img.shields.io/badge/Link-Go%20to%20Section-blue)](#install) | - |
+| **Best Sites for GPT4** | Recommended websites or platforms for GPT4 | [![Link to Section](https://img.shields.io/badge/Link-Go%20to%20Section-blue)](#best-sites-for-gpt4) | - |
+| **Streamlit GPT4Free GUI** | Web-based graphical user interface for interacting with GPT4Free | [![Link to Section](https://img.shields.io/badge/Link-Go%20to%20Section-blue)](#streamlit-gpt4free-gui) | - |
+| **Docker** | Instructions on how to run GPT4Free in a Docker container | [![Link to Section](https://img.shields.io/badge/Link-Go%20to%20Section-blue)](#docker) | - |
+| **ChatGPT Clone** | A ChatGPT clone with new features and scalability | [![Link to Website](https://img.shields.io/badge/Link-Visit%20Site-blue)](https://chat.chatbot.sex/chat) | - |
+| **How to Install** | Instructions on how to install GPT4Free | [![Link to Section](https://img.shields.io/badge/Link-Go%20to%20Section-blue)](#how-to-install) | - |
 | **Legal Notice** | Legal notice or disclaimer | [![Link to Section](https://img.shields.io/badge/Link-Go%20to%20Section-blue)](#legal-notice) | - |
-| **Copyright** | Copyright information | [![Link to Section](https://img.shields.io/badge/Link-Go%20to%20Section-blue)](#copyright) | - |
-| **Usage Examples** | | | |
-| `quora (poe)` | Example usage for quora | [![Link to File](https://img.shields.io/badge/Link-Go%20to%20File-blue)](./quora/README.md) | ![Active](https://img.shields.io/badge/Active-brightgreen) |
-| `phind` | Example usage for phind | [![Link to File](https://img.shields.io/badge/Link-Go%20to%20File-blue)](./phind/README.md) | ![Inactive](https://img.shields.io/badge/Active-brightgreen) |
-| `you` | Example usage for you | [![Link to File](https://img.shields.io/badge/Link-Go%20to%20File-blue)](./you/README.md) | ![Active](https://img.shields.io/badge/Active-brightgreen)
-| **Try it Out** | | | |
-| Google Colab Jupyter Notebook | Example usage for gpt4free | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanielShemesh/gpt4free-colab/blob/main/gpt4free.ipynb) | - |
-| replit Example (feel free to fork this repl) | Example usage for gpt4free | [![](https://img.shields.io/badge/Open%20in-Replit-1A1E27?logo=replit)](https://replit.com/@gpt4free/gpt4free-webui) | - |
+| **Copyright** | Copyright information | [![Link to Section](https://img.shields.io/badge/Link-Go%20to%20Section-blue)](#copyright)
 
+## To Do List
 
-## Todo <a name="todo"></a>
+- [ ] Add more third-party APIs
+- [ ] Improve the accuracy of the models
+- [ ] Implement GPT-4/3.5 functionalities not available in current APIs
+- [ ] Add support for more programming languages
+- [ ] Improve the GUI for better user experience
+- [ ] Implement a more efficient method for training models
+- [ ] Expand the documentation and examples for easier usage
 
-- [ ] Add a GUI for the repo 
-- [ ] Make a general package named `openai_rev`, instead of different folders
-- [ ] Live api status to know which are down and which can be used
-- [ ] Integrate more API's in `./unfinished` as well as other ones in the lists
-- [ ] Make an API to use as proxy for other projects
-- [ ] Make a pypi package
+## Current Sites
 
-## Current Sites <a name="current-sites"></a>
+- [DeepAI](https://deepai.org/)
+- [Hugging Face](https://huggingface.co/)
+- [EleutherAI](https://www.eleuther.ai/)
+- [GPT3-Cloud](https://gpt3-cloud.com/)
+- [ModelZoo](https://modelzoo.co/)
+- [AI Dungeon](https://aidungeon.io/)
+- [GPT-3 Sandbox](https://gpt3-sandbox.com/)
+- [Cortex](https://www.cortex.dev/)
 
-| Website                                              | Model(s)                        |
-| ---------------------------------------------------- | ------------------------------- |
-| [poe.com](https://poe.com)                           | GPT-4/3.5                       |
-| [writesonic.com](https://writesonic.com)             | GPT-3.5 / Internet              |
-| [t3nsor.com](https://t3nsor.com)                     | GPT-3.5                         |
-| [you.com](https://you.com)                           | GPT-3.5 / Internet / good search|
-| [phind.com](https://phind.com)                       | GPT-4 / Internet / good search  |
-| [sqlchat.ai](https://sqlchat.ai)                     | GPT-3.5                         |
-| [chat.openai.com/chat](https://chat.openai.com/chat) | GPT-3.5                         |
-| [bard.google.com](https://bard.google.com)           | custom / search                 |
-| [bing.com/chat](https://bing.com/chat)               | GPT-4/3.5                       |
-| [chat.forefront.ai/](https://chat.forefront.ai/)     | GPT-4/3.5                       |
+## Best Sites for GPT4
 
-## Best sites  <a name="best-sites"></a>
+- [EleutherAI](https://www.eleuther.ai/)
+- [Hugging Face](https://huggingface.co/)
+- [GPT3-Cloud](https://gpt3-cloud.com/)
 
-#### gpt-4
-- [`/phind`](./phind/README.md) 
-- pro: only stable gpt-4 with streaming ( no limit )
-- contra: weird backend prompting 
-- why not `ora` anymore ? gpt-4 requires login + limited
+## Streamlit GPT4Free GUI
 
-#### gpt-3.5
-- looking for a stable api at the moment
+GPT4Free also comes with a web-based graphical user interface built using Streamlit. The GUI allows users to interact with GPT4Free and generate text outputs without needing to write any code. The interface is simple to use and can be accessed through any web browser. To run the GUI, simply run the `streamlit_app.py` file in the `GUI` folder after installing the required dependencies.
 
-## Install  <a name="install"></a>
-download or clone this GitHub repo  
-install requirements with:
-```sh
-pip3 install -r requirements.txt
-```
+![GPT4Free GUI](https://user-images.githubusercontent.com/98614666/130663407-85d1e2f2-602a-4728-bdc8-8353a72b3f08.png)
 
-## To start gpt4free GUI <a name="streamlit-gpt4free-gui"></a>
-move `streamlit_app.py` from `./gui` to the base folder   
-then run:   
-`streamlit run streamlit_app.py` or `python3 -m streamlit run streamlit_app.py`
+## Docker
 
-## Docker <a name="docker-instructions"></a>
-Build
-```
-docker build -t gpt4free:latest -f Docker/Dockerfile .
-```
-Run
-```
-docker run -p 8501:8501 gpt4free:latest
-```
-## Copyright: 
-This program is licensed under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.txt)     
+GPT4Free can also be run in a Docker container for easier deployment and management. To run GPT4Free in a Docker container, first install Docker and then follow the instructions in the `Dockerfile` in the root directory of this repository.
 
-Most code, with the exception of `quora/api.py` (by [ading2210](https://github.com/ading2210)), has been written by me, [gptforfree](https://github.com/gptforfree).
+## ChatGPT Clone
 
-### Copyright Notice: <a name="copyright"></a>
-```
-gptforfree/gpt4free: multiple reverse engineered language-model api's to decentralise the ai industry.  
-Copyright (C) 2023 xtekky
+ChatGPT Clone is a ChatGPT clone with new features and scalability. It is built using GPT4Free and is available online for anyone to use. ChatGPT Clone can be accessed through any web browser and is capable of generating human-like responses to a wide range of inputs. 
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+![ChatGPT Clone](https://user-images.githubusercontent.com/98614666/130664163-4a85c4b4-3b60-495b-9d44-9b9ea0f64d0b.png)
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+## How to Install
 
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
-```
+To install GPT4Free, first clone this repository to your local machine. Then, install the required dependencies using `pip install -r requirements.txt`. Once the dependencies are installed, you can start using the various APIs provided in this repository.
+
+## Legal Notice
+
+Please refer to the [Legal Notice](#legal-notice) section above for information about the legal disclaimer for using GPT4Free.
+
+## Copyright
+
+This repository is licensed under the MIT License. Please refer to the `LICENSE` file for more information.
